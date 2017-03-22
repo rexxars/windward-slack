@@ -4,6 +4,8 @@
   "description": "Monitors a Windward server and notifies a slack channel when someone enters or exits the game",
   "main": "ww-slack.js",
   "scripts": {
+    "build": "docker build -t rexxars/windward-slack:latest .",
+    "push": "docker push rexxars/windward-slack:latest",
     "start": "node ww-slack.js",
     "test": "standard"
   },
