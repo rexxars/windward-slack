@@ -1,0 +1,33 @@
+{
+  "name": "windward-slack",
+  "version": "1.0.0",
+  "description": "Monitors a Windward server and notifies a slack channel when someone enters or exits the game",
+  "main": "ww-slack.js",
+  "scripts": {
+    "start": "node ww-slack.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexxars/windward-slack.git"
+  },
+  "keywords": [
+    "windward",
+    "game",
+    "slack"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/windward-slack/issues"
+  },
+  "homepage": "https://github.com/rexxars/windward-slack#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "get-it": "^1.0.4",
+    "pretty-ms": "^2.1.0"
+  },
+  "devDependencies": {
+    "standard": "^9.0.2"
+  }
+}
