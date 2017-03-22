@@ -11,6 +11,10 @@ npm install
 npm start
 ```
 
+## Docker
+
+There is also a docker image available. Run `docker run rexxars/windward-slack`. Be sure to set the environment variables listed below.
+
 ## Environment variables
 
 Note that these can also be set in a `.env` file in the app folder.
